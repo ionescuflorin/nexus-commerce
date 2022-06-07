@@ -1,0 +1,25 @@
+.Layout {
+  height: 100vh;
+  width: 1200px;
+  background-color: red;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 1260px) {
+  .Layout {
+    width: 1220px;
+  }
+}
+@media (min-width: 992px) {
+  .Layout {
+    width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .Layout {
+    width: 740px;
+  }
+}

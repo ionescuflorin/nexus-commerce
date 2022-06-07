@@ -1,9 +1,9 @@
-import './Home.scss';
+import homeStyles from './Home.module.scss';
 
-function Home() {
+const Home = () => {
   return (
-    <div className="App">
-      App.
+    <div className={homeStyles.App}>
+      Home
     </div>
   );
 }

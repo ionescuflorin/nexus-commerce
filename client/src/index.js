@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 
-import './intex.scss'
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Layout>
+      <Home />
+    </Layout>
   </React.StrictMode>
 );
 
