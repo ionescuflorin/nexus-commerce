@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 
-import './index.scss';
+import './sass/main.scss';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
