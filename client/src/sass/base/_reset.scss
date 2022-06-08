@@ -18,7 +18,8 @@
 	3. Allow percentage-based heights in the application
   */
 html,
-body {
+body,
+#root {
   height: 100%;
 }
 /*
@@ -61,8 +62,4 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-}
-
-#root {
-  height: 100%;
 }
